@@ -10,7 +10,8 @@
         "README.md",
         "joystickbit.ts",
         "_locales/zh-cn/joystickbit-strings.json",
-        "_locales/zh-tw/joystickbit-strings.json"
+        "_locales/zh-tw/joystickbit-strings.json",
+        "_locales/de/joystickbit-strings.json"
     ],
     "testFiles": [
         "tests.ts"
