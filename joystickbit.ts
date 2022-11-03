@@ -63,8 +63,8 @@ namespace joystickbit {
     * Registers code to run when a joystick:bit event is detected.
     */
     //% blockId=onButtonEvent block="on button %button|is %event" blockExternalInputs=false
-    export function onButtonEvent(button: JoystickBitPin, event: ButtonType, handler: Action): void {
-        pins.onPulsed(<number>button, <number>event, handler);
+    export function onButtonEvent(button: JoystickBitPin, event: ButtonType, handler: () => void): void {
+        pins.onPulsed(<number>button, <number>event) = handler;
     }
 
 
