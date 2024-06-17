@@ -88,12 +88,12 @@ class JOYSTICKBIT(object):
             # print(get_rocker_value(RockerType.X))  
             # vibration_motor(500)  # 振动500毫秒
 
-JOYSTICKBIT1 = JOYSTICKBIT()
+joystickbit = JOYSTICKBIT()
 
 
 if __name__ == '__main__':
      
-      JOYSTICKBIT.init_joystick_bit()
+      joystickbit.init_joystick_bit()
       # JOYSTICKBIT.get_button(JoystickBitPin.P12)
       # JOYSTICKBIT.on_button_event(JoystickBitPin.P12,ButtonType['down'],lambda: print("Button P12 pressed!"))
       # JOYSTICKBIT.get_rocker_value(RockerType.X)
